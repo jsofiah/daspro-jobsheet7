@@ -19,6 +19,7 @@ public class Parkir21 {
                     System.out.print("Input durasi parkir: ");
                     durasi = parkir.nextInt();
 
+                    total = 0;
                     if(durasi > 5){
                         total += 12500;
                     }
